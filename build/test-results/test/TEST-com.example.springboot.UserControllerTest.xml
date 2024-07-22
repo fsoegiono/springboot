@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springboot.UserControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-07-22T03:10:33" hostname="Admins-MBP.championbroadband.com" time="0.217">
+  <properties/>
+  <testcase name="Save()" classname="com.example.springboot.UserControllerTest" time="0.2"/>
+  <testcase name="GetAllUsers()" classname="com.example.springboot.UserControllerTest" time="0.007"/>
+  <testcase name="DeleteAll()" classname="com.example.springboot.UserControllerTest" time="0.006"/>
+  <system-out><![CDATA[2024-07-21T20:10:32.233-07:00  INFO 4419 --- [springbootinit] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.springboot.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-21T20:10:32.251-07:00  INFO 4419 --- [springbootinit] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.springboot.SpringbootApplication for test class com.example.springboot.UserControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-21T20:10:32.286-07:00  INFO 4419 --- [springbootinit] [    Test worker] c.example.springboot.UserControllerTest  : Starting UserControllerTest using Java 17.0.11 with PID 4419 (started by admin in /Users/admin/dev/java/spring/springboot)
+2024-07-21T20:10:32.287-07:00  INFO 4419 --- [springbootinit] [    Test worker] c.example.springboot.UserControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-07-21T20:10:33.440-07:00  INFO 4419 --- [springbootinit] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-21T20:10:33.440-07:00  INFO 4419 --- [springbootinit] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-21T20:10:33.442-07:00  INFO 4419 --- [springbootinit] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-21T20:10:33.465-07:00  INFO 4419 --- [springbootinit] [    Test worker] c.example.springboot.UserControllerTest  : Started UserControllerTest in 1.203 seconds (process running for 4.28)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
